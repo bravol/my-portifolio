@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "skill": "Angular",
+    "image": "angular.png"
+  },
+  {
+    "id": 2,
+    "skill": "Bootstrap",
+    "image": "bootstrap.png"
+  },
+  {
+    "id": 3,
+    "skill": "Chakra UI",
+    "image": "chakra.png"
+  },
+  {
+    "id": 4,
+    "skill": "Codeigniter",
+    "image": "codeigniter.png"
+  },
+  {
+    "id": 5,
+    "skill": "CSS",
+    "image": "css.jpg"
+  },
+  {
+    "id": 6,
+    "skill": "Dart",
+    "image": "dart-logo.png"
+  },
+  {
+    "id": 7,
+    "skill": "Django",
+    "image": "django.png"
+  },
+  {
+    "id": 8,
+    "skill": "Docker",
+    "image": "docker-logo.png"
+  },
+  {
+    "id": 9,
+    "skill": "Express JS",
+    "image": "express-js.png"
+  },
+  {
+    "id": 10,
+    "skill": "FastAPI",
+    "image": "fastapi.png"
+  },
+  {
+    "id": 11,
+    "skill": "Firebase",
+    "image": "firebase.png"
+  },
+  {
+    "id": 12,
+    "skill": "Flask",
+    "image": "flask.png"
+  },
+  {
+    "id": 13,
+    "skill": "Flutter Bloc",
+    "image": "flutter_bloc.png"
+  },
+  {
+    "id": 14,
+    "skill": "Flutter",
+    "image": "flutter-logo.png"
+  },
+  {
+    "id": 15,
+    "skill": "Flutter Riverpod",
+    "image": "flutter-riverpod-logo.png"
+  },
+  {
+    "id": 16,
+    "skill": "Git",
+    "image": "git.png"
+  },
+  {
+    "id": 17,
+    "skill": "HTML",
+    "image": "html.png"
+  },
+  {
+    "id": 18,
+    "skill": "Java",
+    "image": "java.png"
+  },
+  {
+    "id": 19,
+    "skill": "JavaScript",
+    "image": "javascript.png"
+  },
+  {
+    "id": 20,
+    "skill": "Laravel",
+    "image": "laravel.png"
+  },
+  {
+    "id": 21,
+    "skill": "Material UI",
+    "image": "materialUI.png"
+  },
+  {
+    "id": 22,
+    "skill": "Mongo DB",
+    "image": "mongo.png"
+  },
+  {
+    "id": 23,
+    "skill": "MYSQL",
+    "image": "mysql.png"
+  },
+  {
+    "id": 24,
+    "skill": "Next JS",
+    "image": "nextjs.png"
+  },
+  {
+    "id": 25,
+    "skill": "PostgreSQL",
+    "image": "postgresql.png"
+  },
+  {
+    "id": 26,
+    "skill": "Python",
+    "image": "python.png"
+  },
+  {
+    "id": 27,
+    "skill": "React Bootstrap",
+    "image": "react_bootstrap.jpg"
+  },
+  {
+    "id": 28,
+    "skill": "React",
+    "image": "react.png"
+  },
+  {
+    "id": 29,
+    "skill": "Redux Toolkit",
+    "image": "redux-toolkit.png"
+  },
+  {
+    "id": 30,
+    "skill": "Sequelize JS",
+    "image": "sequelize-logo.png"
+  },
+  {
+    "id": 31,
+    "skill": "Shadcn UI",
+    "image": "shadcn-ui.png"
+  },
+  {
+    "id": 32,
+    "skill": "Spring Boot",
+    "image": "spring-boot.png"
+  },
+  {
+    "id": 33,
+    "skill": "SQL JS",
+    "image": "sql.png"
+  },
+  {
+    "id": 34,
+    "skill": "SQLAlchemy",
+    "image": "sqlalchemy.png"
+  },
+  {
+    "id": 35,
+    "skill": "Supabase",
+    "image": "supabase-logo.png"
+  },
+  {
+    "id": 36,
+    "skill": "Tailwind",
+    "image": "tailwind.png"
+  },
+  {
+    "id": 37,
+    "skill": "Typescript",
+    "image": "typescript.png"
+  },
+  {
+    "id": 38,
+    "skill": "Vite",
+    "image": "Vitejs-logo.png"
+  },
+  {
+    "id": 39,
+    "skill": "Vue JS",
+    "image": "vue.png"
+  },
+  {
+    "id": 40,
+    "skill": "Yii",
+    "image": "yii.png"
+  },
+  {
+    "id": 41,
+    "skill": "Zustand",
+    "image": "zustand.jpg"
+  }
+]

@@ -3,13 +3,11 @@ import Me from "./../assets/images/profile_man.png";
 
 const SectionOne = () => {
   return (
-    <div className="px-20 py-10 flex justify-between bg-gray-100 h-[500px]">
+    <div className="px-20 py-10 flex justify-between h-[500px]">
       <div className="space-y-10 w-1/2">
         <h1 className="text-6xl font-extrabold">
           <p className="inline">Hey 👋 I'm</p>
-          <span className="block bg-gradient-to-r text-pink-500 text-transparent bg-clip-text my-10">
-            Brian
-          </span>
+          <span className="block text-pink-500 my-10">Brian</span>
         </h1>
 
         <div className="py-3 px-6 border-4 w-fit border-orange-600">
