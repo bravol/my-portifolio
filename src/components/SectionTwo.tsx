@@ -36,24 +36,38 @@ const SectionTwo = () => {
             to excellence. Let’s explore how my skills can contribute to your
             vision.
           </p>
-          <Link
-            to="services"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={800}
-          >
-            <button
-              className={`md:text-base sm:text-sm text-xs md:px-6 px-3 py-2 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full text-white font-medium hover:opacity-85 mt-5`}
+          <div className="flex gap-3">
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={800}
             >
-              Learn More
-            </button>
-          </Link>
+              <button
+                className={`md:text-base sm:text-sm text-xs md:px-6 px-3 py-2 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full text-white font-medium hover:opacity-85 mt-5`}
+              >
+                Learn More
+              </button>
+            </Link>
+            <a
+              href="/Lumala_Brian_CV.pdf"
+              target="_blank"
+              download="Lumala_Brian_CV"
+              rel="noopener noreferrer"
+            >
+              <button
+                className={`md:text-base sm:text-sm text-xs md:px-6 px-3 py-2 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full text-white font-medium hover:opacity-85 mt-5`}
+              >
+                Download CV
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <div className="md:flex lg:gap-20 gap-10 lg:py-20 py-10">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+          url="https://www.youtube.com/watch?v=wXc2tao51D4"
           width="100%"
           controls
         />
