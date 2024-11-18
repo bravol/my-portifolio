@@ -5,7 +5,7 @@ import Project from "./Project";
 
 const Portfolio = () => {
   return (
-    <div className=" py-10  md:px-20  px-10 bg-gray-200 ">
+    <div className=" py-10  md:px-20  sm:px-10 px-5 bg-gray-200 ">
       <div className="flex flex-col items-center justify-center">
         <p className=" uppercase border border-black px-10 py-1.5 text-pink-500 rounded-full font-bold">
           Portfolio

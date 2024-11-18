@@ -6,14 +6,14 @@ const SectionTwo = () => {
   return (
     <div className="lg:px-20 md:px-10 px-5 lg:py-20 py-10 bg-gray-200">
       <div className=" sm:flex">
-        <div className="sm:w-1/2 flex flex-grow gap-5 sm:gap-0 items-center justify-center sm:grid">
-          <div className="bg-white sm:px-10 px-5 sm:py-16 py-8 w-fit rounded-2xl flex flex-col gap-5 shadow-lg">
+        <div className="sm:w-1/2 flex flex-col sm:flex-row gap-5 sm:gap-0 items-center justify-center sm:grid">
+          <div className="bg-white sm:px-10 px-5 sm:py-16 py-8 w-full sm:w-fit rounded-2xl flex flex-col gap-5 shadow-lg">
             <p className="sm:text-6xl text-4xl font-bold text-orange-500">5+</p>
             <p className="sm:text-xl text-lg font-light text-nowrap">
               Years of Experience
             </p>
           </div>
-          <div className="bg-white sm:px-10 px-5 sm:py-16 py-8 w-fit rounded-2xl flex flex-col gap-5 shadow-lg">
+          <div className="bg-white sm:px-10 px-5 sm:py-16 py-8 w-full sm:w-fit rounded-2xl flex flex-col gap-5 shadow-lg">
             <p className="sm:text-6xl text-4xl font-bold text-orange-500">
               20+
             </p>
@@ -22,19 +22,19 @@ const SectionTwo = () => {
             </p>
           </div>
         </div>
+
         <div className="sm:w-1/2 md:space-y-10 space-y-5 lg:text-lg md:text-base text-sm mt-5 sm:mt-0">
-          <p className=" font-extralight leading-8 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eos,
-            accusamus adipisci esse ut, molestias voluptatibus vitae tempore
-            distinctio odit doloribus reprehenderit quasi perspiciatis libero
-            hic dolore numquam ex ab! distinctio odit doloribus reprehenderit
-            quasi perspiciatis libero hic dolore numquam ex ab!
+          <p className="font-extralight leading-8">
+            I have over five years of hands-on experience crafting innovative
+            solutions in web and mobile app development. My focus is on
+            delivering high-quality, user-centric applications that solve
+            real-world problems and create value.
           </p>
-          <p className=" font-extralight leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eos,
-            accusamus adipisci esse ut, molestias voluptatibus vitae tempore
-            distinctio odit doloribus reprehenderit quasi perspiciatis libero
-            hic
+          <p className="font-extralight leading-8">
+            From concept to deployment, I have successfully completed numerous
+            projects, showcasing a blend of technical expertise and a commitment
+            to excellence. Let’s explore how my skills can contribute to your
+            vision.
           </p>
           <Link
             to="services"
@@ -54,8 +54,6 @@ const SectionTwo = () => {
       <div className="md:flex lg:gap-20 gap-10 lg:py-20 py-10">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-          // height="100%"
-
           width="100%"
           controls
         />

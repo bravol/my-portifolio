@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import GradientButton from "./Button";
 const Header = () => {
   return (
-    <div className="flex items-center justify-between md:px-10 px-5 sm:py-5 py-3 bg-white  shadow-lg sm:mx-10 sm:my-5 sm:rounded-xl">
+    <div className="flex items-center justify-between lg:px-10 px-5 sm:py-5 py-3 bg-white  shadow-lg sm:mx-10 sm:my-5 sm:rounded-xl">
       <Link
         to="home"
         className="cursor-pointer hover:text-orange-500"

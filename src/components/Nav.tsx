@@ -6,7 +6,7 @@ interface Props {
 const Nav = ({ color }: Props) => {
   return (
     <div
-      className={`flex items-center  md:gap-10 sm:gap-5 gap-3  font-semibold text-nowrap ${color} sm:text-base text-xs `}
+      className={`flex items-center  lg:gap-10 sm:gap-5 gap-3 uppercase  font-semibold text-nowrap ${color} sm:text-base text-xs `}
     >
       <Link
         to="home"
@@ -50,7 +50,7 @@ const Nav = ({ color }: Props) => {
       </Link>
       <Link
         to="footer"
-        className=" cursor-pointer hover:text-pink-500"
+        className=" cursor-pointer hover:text-pink-500 hidden sm:block"
         spy={true}
         smooth={true}
         offset={50}

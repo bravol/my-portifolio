@@ -20,26 +20,22 @@ const Services = () => {
           <Service
             image={Web}
             service="Web Development"
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit.  provident, laudantium iusto deleniti numquam cupiditate neque voluptas saepe unde praesentium dolores enim! Tenetur velit corrupti nobis labore?
- "
+            description="I specialize in creating responsive, user-friendly websites that deliver exceptional user experiences. From landing pages to dynamic web applications, I bring your ideas to life with modern tools and techniques."
           />
           <Service
             image={App}
             service="App Development"
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit.  provident, laudantium iusto deleniti numquam cupiditate neque voluptas saepe unde praesentium dolores enim! Tenetur velit corrupti nobis labore?
- "
+            description="Whether it's Android or iOS, I build robust and scalable mobile applications tailored to your needs. My apps are designed to provide seamless performance and intuitive user interfaces."
           />
           <Service
             image={Back}
             service="Backend Development"
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit.  provident, laudantium iusto deleniti numquam cupiditate neque voluptas saepe unde praesentium dolores enim! Tenetur velit corrupti nobis labore?
- "
+            description="I design and develop secure, efficient, and scalable backend systems that power your applications. With expertise in server-side technologies, I ensure data integrity and robust functionality."
           />
           <Service
             image={Full}
             service="FullStack Development"
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit.  provident, laudantium iusto deleniti numquam cupiditate neque voluptas saepe unde praesentium dolores enim! Tenetur velit corrupti nobis labore?
- "
+            description="Combining frontend and backend expertise, I deliver end-to-end solutions for complete web and mobile applications. My goal is to provide seamless integration and consistent performance."
           />
         </div>
       </div>

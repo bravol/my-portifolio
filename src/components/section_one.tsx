@@ -1,5 +1,6 @@
 import GradientButton from "./Button";
 import Me from "./../assets/images/profile_man.png";
+import { ReactTyped } from "react-typed";
 
 const SectionOne = () => {
   return (
@@ -11,16 +12,26 @@ const SectionOne = () => {
           </p>
           <span className="block text-pink-500 lg:my-10 my-5">Bravol</span>
         </h1>
-
-        <div className="md:py-3 py-2 px-6 border-4 w-fit border-orange-600">
-          <p className="md:text-3xl text-xl font-medium text-nowrap">
-            Full Stack Developer
-          </p>
+        <div className="md:py-3 py-2 px-6 border-4 w-fit border-orange-600 md:text-3xl text-xl font-medium text-nowrap">
+          <ReactTyped
+            strings={[
+              "Web App Developer",
+              "Mobile App Developer",
+              "Backend Developer",
+              "Full Stack Developer",
+            ]}
+            typeSpeed={40}
+            backSpeed={50}
+            loop
+          />
         </div>
+
         <p className=" font-extralight leading-8 lg:text-lg text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eos,
-          accusamus adipisci esse ut, molestias voluptatibus vitae tempore
-          distinctio odit doloribus reprehenderit quasi perspiciatis libero hic
+          I am a passionate software developer specializing in building dynamic
+          and scalable web and mobile applications. With expertise in both
+          frontend and backend development, I deliver innovative solutions
+          tailored to meet user needs. Let’s build something extraordinary
+          together!
         </p>
         <div>
           <a

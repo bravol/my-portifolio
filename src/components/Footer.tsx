@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="bg-gray-900">
-      <div className="sm:flex items-center justify-between  lg:px-20 md:px-10 px-5 py-5">
+      <div className="sm:flex items-center justify-between gap-2  lg:px-20 md:px-10 px-5 py-5">
         <div className="flex items-center sm:gap-5 gap-2">
           <Link
             to="home"
