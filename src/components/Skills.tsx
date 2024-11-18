@@ -11,12 +11,12 @@ interface Props {
 const Skills = ({ skills }: Props) => {
   return (
     <div className="md:px-10 px-5">
-      <p className="capitalize text-center md:text-5xl text-2xl font-bold my-10">
+      <p className="capitalize text-center lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold md:my-10 my-5">
         My Skills
       </p>
-      <div className="flex text-nowrap flex-wrap gap-6 p-4 my-10">
+      <div className="flex text-nowrap flex-wrap gap-6 p-4 mb-10">
         {skills.map((skill) => (
-          <div key={skill.id} className="relative group">
+          <div key={skill.id} className="relative">
             {/* Skill Icon */}
             <img
               src={"icons/" + skill.image}

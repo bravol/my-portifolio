@@ -10,7 +10,9 @@ const Portfolio = () => {
         <p className=" uppercase border border-black px-10 py-1.5 text-pink-500 rounded-full font-bold">
           Portfolio
         </p>
-        <p className=" font-medium text-5xl my-5">My Recent Work</p>
+        <p className=" font-medium lg:text-5xl md:text-4xl sm:text-3xl text-2xl md:my-10 my-5 ">
+          My Recent Work
+        </p>
       </div>
       <div className="md:py-10 py-5  md:gap-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
         <Project

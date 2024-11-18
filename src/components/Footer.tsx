@@ -1,11 +1,11 @@
 import Nav from "./Nav";
 import Logo from "./../assets/images/bravol_logo.png";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa6";
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 import { Link } from "react-scroll";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -30,11 +30,53 @@ const Footer = () => {
 
           <Nav color="text-white" />
         </div>
-        <div className=" flex gap-10 text-orange-600 text-xl mt-5 sm:mt-0">
-          <FaXTwitter cursor="pointer" />
-          <FaFacebookF cursor="pointer" />
-          <FaLinkedinIn cursor="pointer" />
-          <FaGithub cursor="pointer" />
+        <div className="flex gap-6 text-orange-600 text-2xl mt-5 sm:mt-0">
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/lumala-brian-939625197"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-800 transition-colors"
+          >
+            <FaLinkedinIn cursor="pointer" />
+          </a>
+          {/* GitHub */}
+          <a
+            href="https://github.com/bravol"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-500 transition-colors"
+          >
+            <FaGithub cursor="pointer" />
+          </a>
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/256704690012"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-green-600 transition-colors"
+          >
+            <FaWhatsapp cursor="pointer" />
+          </a>
+
+          {/* Twitter */}
+          <a
+            href="https://twitter.com/@LumalaBrianbro"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-500 transition-colors"
+          >
+            <FaXTwitter cursor="pointer" />
+          </a>
+          {/* Facebook */}
+          <a
+            href="mailto:lumalabravo@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-700 transition-colors"
+          >
+            <MdEmail cursor="pointer" />
+          </a>
         </div>
       </div>
       <hr />

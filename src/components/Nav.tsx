@@ -10,7 +10,7 @@ const Nav = ({ color }: Props) => {
     >
       <Link
         to="home"
-        className=" cursor-pointer hover:text-orange-500"
+        className=" cursor-pointer hover:text-pink-500"
         spy={true}
         smooth={true}
         offset={50}
@@ -19,8 +19,8 @@ const Nav = ({ color }: Props) => {
         Home
       </Link>
       <Link
-        to="about"
-        className=" cursor-pointer hover:text-orange-500"
+        to="services"
+        className=" cursor-pointer hover:text-pink-500"
         spy={true}
         smooth={true}
         offset={50}
@@ -29,8 +29,8 @@ const Nav = ({ color }: Props) => {
         Services
       </Link>
       <Link
-        to="features"
-        className=" cursor-pointer hover:text-orange-500"
+        to="projects"
+        className=" cursor-pointer hover:text-pink-500"
         spy={true}
         smooth={true}
         offset={50}
@@ -39,8 +39,8 @@ const Nav = ({ color }: Props) => {
         Projects
       </Link>
       <Link
-        to="features"
-        className=" cursor-pointer hover:text-orange-500"
+        to="skills"
+        className=" cursor-pointer hover:text-pink-500"
         spy={true}
         smooth={true}
         offset={50}
@@ -50,7 +50,7 @@ const Nav = ({ color }: Props) => {
       </Link>
       <Link
         to="footer"
-        className=" cursor-pointer hover:text-orange-500"
+        className=" cursor-pointer hover:text-pink-500"
         spy={true}
         smooth={true}
         offset={50}

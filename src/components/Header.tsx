@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import GradientButton from "./Button";
 const Header = () => {
   return (
-    <div className="flex items-center justify-between md:px-10 px-5 sm:py-5 py-3 bg-white  shadow-lg mx-10 my-5 rounded-xl">
+    <div className="flex items-center justify-between md:px-10 px-5 sm:py-5 py-3 bg-white  shadow-lg sm:mx-10 sm:my-5 sm:rounded-xl">
       <Link
         to="home"
         className="cursor-pointer hover:text-orange-500"
@@ -26,7 +26,7 @@ const Header = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <GradientButton children="Let's Talk" className=" text-nowrap" />
+        <GradientButton children="Let's Talk" className="text-nowrap" />
       </a>
     </div>
   );

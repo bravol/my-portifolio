@@ -6,6 +6,8 @@ import SectionOne from "../components/section_one";
 import SectionTwo from "../components/SectionTwo";
 import Services from "../components/Services";
 import Skills from "../components/Skills";
+import { Element } from "react-scroll";
+
 const Home = () => {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
@@ -14,15 +16,25 @@ const Home = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <>
+    <div className=" font-roboto">
       <Header />
-      <SectionOne />
+      <Element name="home">
+        <SectionOne />
+      </Element>
       <SectionTwo />
-      <Services />
-      <Portfolio />
-      <Skills skills={skills} />
-      <Footer />
-    </>
+      <Element name="services">
+        <Services />
+      </Element>
+      <Element name="projects">
+        <Portfolio />
+      </Element>
+      <Element name="skills">
+        <Skills skills={skills} />
+      </Element>
+      <Element name="footer">
+        <Footer />
+      </Element>
+    </div>
   );
 };
 
